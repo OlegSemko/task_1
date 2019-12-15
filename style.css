@@ -1,6 +1,7 @@
 html {
   font-family: 'Ubuntu', sans-serif;
   scroll-behavior: smooth;
+  scrollbar-color: red silver;
 }
 
 /*crossbrowser style for scrollbar*/
@@ -8,12 +9,11 @@ html {
 body {
   display: flex;
   flex-flow: column nowrap;
-  scroll-behavior: smooth;
-  scrollbar-color: red silver;
 }
 
 ::-webkit-scrollbar {
   background: silver;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -141,7 +141,7 @@ body > div > div {
 
 body > div > div div {
   text-align: center;
-  width: 210px;
+  width: 215px;
   height: 170px;
   margin: 20px;
 
@@ -191,7 +191,7 @@ img:hover {
   color: black;
 }
 
-input {
+input, textarea {
   margin-bottom: 5px;
 }
 
