@@ -1,77 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>My portfolio</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<head>
+  <meta charset="UTF-8">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
 </head>
+
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#about-me">About me</a></li>
-				<li>
-					<a href="#my-interests">My interests</a>
-					<div>
-						<a href="https://olegsemko.github.io/my_portfolio" target="blank">Front-End</a>
-						<a href="https://www.bostondynamics.com" target="blank">Robots</a>
-						<a href="https://radiopaedia.org" target="blank">Radiology</a>
-						<a href="https://en.wikipedia.org/wiki/Family" target="blank">Family</a>
-						<a href="https://www.freeletics.com/en" target="blank">Freeletics</a>
-						<a href="https://en.wikipedia.org/wiki/Driving" target="blank">Driving / cars</a>
-					</div>
-				</li>
-				<li><a href="#contacts">Contact me</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div id="about-me">
-		<h1>About me</h1>
-		<div>
-			<div>
-				<img class="my_img" src="img/me.jpg" alt="my photo">
-			</div>
-			<div class="text">
-				<p>This is me. I don`t like to talk about myself much.</p>
-				<p>All i would like to tell about myself is that i have a family and i have many interests.</p>
-				<p>If you want to know somebody closer, you should take a look at the activity of that human. And do not hurry.</p>
-			</div>
-		</div>
-	</div>
-	<div id="my-interests">
-		<h1>My interests</h1>
-		<div>
-			<div><a href="https://olegsemko.github.io/my_portfolio" target="blank"><img src="img/fe.png" alt="front-end image"></a></div>
-			<div><a href="https://www.bostondynamics.com" target="blank"><img src="img/robot.jpg" alt="robot image"></a></div>
-			<div><a href="https://radiopaedia.org" target="blank"><img src="img/radiology.jpg" alt="radiology image"></a></div>
-			<div><a href="https://en.wikipedia.org/wiki/Family" target="blank"><img src="img/family.jpg" alt="family image"></a></div>
-			<div><a href="https://www.freeletics.com/en" target="blank"><img src="img/freeletics.png" alt="freeletics image"></a></div>
-			<div><a href="https://en.wikipedia.org/wiki/Driving" target="blank"><img src="img/driver.jpg" alt="driver image"></a></div>
-		</div>
-	</div>
-	<div id="contacts">
-		<h1>Contact me</h1>
-		<div>
-		<div>
-	        <ul class="contacts">
-                <li><a href="tel:+380677284259"><i class="fa fa-phone pr-10"></i> +38 067 728 42 59</a></li>
-                <li><a href="mailto:semoasem@gmail.com"><i class="fa fa-envelope-o pr-10"></i> semoasem@gmail.com</a></li>
-            </ul>
-        </div>
-		<div class="text">
-			<form>
-				<textarea name="post" id="post" cols="30" rows="8" placeholder="Send me a message"></textarea><br>
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-		</div>
-	</div>
-	<footer>
-		<p>Copyright ©2019 Portfolio by OlegSemko.</p>
-	</footer>
-	
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About me</a></li>
+        <li>
+          <a href="#">My interests</a>
+          <div>
+            <a href="#my-interests">Front-End</a>
+            <a href="#my-interests">Robots</a>
+            <a href="#my-interests">Radiology</a>
+            <a href="#my-interests">Family</a>
+            <a href="#my-interests">Freeletics</a>
+            <a href="#my-interests">Driving / cars</a>
+          </div>
+        </li>
+        <li><a href="#contacts">Contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="about-me">
+    <h1>About me</h1>
+    <div>
+      <div>
+        <img class="my_img" src="img/me.jpg" alt="my photo">
+      </div>
+      <div class="text">
+        <p>This is me. I don`t like to talk about myself much.</p>
+        <p>I believe, if you want to know somebody closer, you should take a look at the activity of that person.</p>
+      </div>
+    </div>
+  </div>
+  <div id="my-interests">
+    <h1>My interests</h1>
+    <div>
+      <div>
+        <a href="https://olegsemko.github.io/my_portfolio" target="blank">
+          <img src="img/fe.png" alt="front-end image">
+        </a>
+      </div>
+      <div>
+        <a href="https://www.bostondynamics.com" target="blank">
+          <img src="img/robot.jpg" alt="robot image">
+        </a>
+      </div>
+      <div>
+        <a href="https://radiopaedia.org" target="blank">
+          <img src="img/radiology.jpg" alt="radiology image">
+        </a>
+      </div>
+      <div>
+        <a href="https://en.wikipedia.org/wiki/Family" target="blank">
+          <img src="img/family.jpg" alt="family image">
+        </a>
+      </div>
+      <div>
+        <a href="https://www.freeletics.com/en" target="blank">
+          <img src="img/freeletics.png" alt="freeletics image">
+        </a>
+      </div>
+      <div>
+        <a href="https://en.wikipedia.org/wiki/Driving" target="blank">
+          <img src="img/driver.jpg" alt="driver image">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="contacts">
+    <h1>Contact me</h1>
+    <div>
+      <div>
+        <ul class="contacts">
+          <li>
+            <a href="tel:+380677284259">
+              <i class="fa fa-phone pr-10"></i>
+              +38 067 728 42 59
+            </a>
+          </li>
+          <li>
+            <a href="mailto:semoasem@gmail.com">
+              <i class="fa fa-envelope-o pr-10"></i>
+              semoasem@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="text">
+        <form>
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your e-mail">
+          <textarea name="post" id="post" cols="25" rows="8" placeholder="Send me a message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Copyright ©2019 Portfolio by OlegSemko.</p>
+  </footer>
 </body>
+
 </html>
